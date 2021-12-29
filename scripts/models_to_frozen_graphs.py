@@ -8,7 +8,7 @@ sys.path.append("third_party/models")
 sys.path.append("third_party/")
 sys.path.append("third_party/models/research/slim/")
 sys.path.append("scripts")
-import tensorflow.contrib.slim as tf_slim
+import tf_slim
 import slim.nets as nets
 import slim.nets.vgg
 from model_meta import NETS, CHECKPOINT_DIR, FROZEN_GRAPHS_DIR

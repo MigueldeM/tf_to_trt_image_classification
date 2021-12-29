@@ -7,7 +7,7 @@ sys.path.append("third_party/models/research/")
 sys.path.append("third_party/models")
 sys.path.append("third_party/")
 sys.path.append("third_party/models/research/slim/")
-import tensorflow.contrib.slim as tf_slim
+import tf_slim
 import slim.nets as nets
 import slim.nets.vgg
 import slim.nets.inception
